@@ -281,6 +281,29 @@
         참고: 확률을 높이는 “공식”은 없습니다. 재미로 참고용 추천을 받아보세요.
       </div>
     </div>
+
+    <div class="card" style="margin-top: 30px;">
+      <h2>제휴 문의</h2>
+      <p>저희 서비스에 관심 가져주셔서 감사합니다. 아래 폼을 통해 문의해주시면 빠르게 연락드리겠습니다.</p>
+      <form action="https://formspree.io/f/xzdddabj" method="POST">
+        <div style="margin-bottom: 15px;">
+          <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">이름:</label>
+          <input type="text" id="name" name="name" required
+                 style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--panel-bg); color: var(--text);">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="email" style="display: block; margin-bottom: 5px; font-weight: bold;">이메일:</label>
+          <input type="email" id="email" name="email" required
+                 style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--panel-bg); color: var(--text);">
+        </div>
+        <div style="margin-bottom: 15px;">
+          <label for="message" style="display: block; margin-bottom: 5px; font-weight: bold;">문의 내용:</label>
+          <textarea id="message" name="message" rows="5" required
+                    style="width: 100%; padding: 10px; border-radius: 8px; border: 1px solid var(--border); background: var(--panel-bg); color: var(--text);"></textarea>
+        </div>
+        <button type="submit" class="primary" style="width: auto; padding: 12px 20px; min-width: unset;">문의하기</button>
+      </form>
+    </div>
   </div>
 
   <script>
